@@ -1,14 +1,18 @@
-// const _tablinksEvent = document.getElementsByClassName("tablinks");
-// for (var i = 0; i < _tablinksEvent.length; i++) {
-//     _tablinksEvent[i].addEventListener('click', function() {
-//         openCity(evt, cityName);
-//     })
-// }
+const _tablinksEvent = document.getElementsByClassName("tablinks");
+
+for (var i = 0; i < _tablinksEvent.length; i++) {
+    _tablinksEvent[i].addEventListener('click', function() {
+        let _cityName = document.getElementById(this);
+        alert(_cityName);
+        openCity(event, _cityName);
+    })
+}
 
 
 
 
 function openCity(evt, cityName) {
+    // alert(cityName);
     var i, _tabcontent, _tablinks;
     _tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < _tabcontent.length; i++) {
