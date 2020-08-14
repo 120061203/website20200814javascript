@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,IAAI;CACzB;;AAED,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,KAAK;CACf",
+    "sources": [
+        "100percentStripe.scss"
+    ],
+    "names": [],
+    "file": "100percentStripe.css"
+}
