@@ -22,9 +22,11 @@
         transition: .3s;
         font-size: 17px;
         &:hover {
-            background-color: darken(#ccc, 30%);
+            color: white;
+            background-color: darken(#ccc, 50%);
         }
         &.active {
+            color: black;
             background-color: #ccc;
         }
     }

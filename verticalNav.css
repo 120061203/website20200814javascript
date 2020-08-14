@@ -27,10 +27,12 @@
 }
 
 .tab button:hover {
-  background-color: gray;
+  color: white;
+  background-color: #4d4d4d;
 }
 
 .tab button.active {
+  color: black;
   background-color: #ccc;
 }
 
